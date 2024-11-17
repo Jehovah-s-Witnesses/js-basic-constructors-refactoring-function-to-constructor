@@ -6,7 +6,7 @@ import eslintPluginPrettier from 'eslint-plugin-prettier/recommended';
 export default [
   {
     languageOptions: {
-      globals: globals.browser
+      globals: globals.browser,
     },
     rules: {
       'array-callback-return': 'error',
@@ -46,8 +46,8 @@ export default [
       'no-self-assign': [
         'error',
         {
-          'props': true
-        }
+          props: true,
+        },
       ],
       'no-self-compare': 'error',
       'no-setter-return': 'error',
@@ -72,14 +72,14 @@ export default [
       'valid-typeof': 'error',
       'accessor-pairs': 'error',
       'block-scoped-var': 'error',
-      'camelcase': ['error'],
+      camelcase: ['error'],
       'capitalized-comments': 'error',
       'class-methods-use-this': 'error',
-      'curly': 'error',
+      curly: 'error',
       'default-case-last': 'error',
       'default-param-last': 'error',
       'dot-notation': 'error',
-      'eqeqeq': 'error',
+      eqeqeq: 'error',
       'grouped-accessor-pairs': 'error',
       'id-length': [
         2,
@@ -136,7 +136,7 @@ export default [
       'require-yield': 'error',
       // TODO: Enable for projects
       // 'sort-imports': 'errpr'
-      'yoda': 'error',
+      yoda: 'error',
     },
   },
   pluginJs.configs.recommended,

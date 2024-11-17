@@ -1,6 +1,6 @@
-# template-vanilla
+# js-basic-constructors-refactoring-function-to-constructor
 
-## Text
+## Refactor existed function code to constructor. Please add `export` before name of your constructor and name should be `Store`. All methods should have the same names
 
 ## Criteria:
 
